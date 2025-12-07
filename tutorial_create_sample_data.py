@@ -1,5 +1,4 @@
 import pandas as pd
-from faasr.faasr import faasr_put_file, faasr_log
 
 def create_sample_data(folder, output1, output2):
 
