@@ -1,6 +1,6 @@
 import pandas as pd
 
-def create_sample_data(folder, output1, output2):
+def tutorial_create_sample_data(folder, output1, output2):
 
     # --- Create two dataframes ---
     df1 = pd.DataFrame({
