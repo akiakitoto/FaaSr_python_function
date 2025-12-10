@@ -20,8 +20,8 @@ def tutorial_create_sample_data(folder, output1, output2):
     df2.to_csv("df2.csv", index=False)
 
     # --- Upload CSV to S3 (FaaSr default bucket) ---
-    faasr_put_file(server_name="My_Minio_Bucket",local_file="df1.csv", remote_folder=folder, remote_file=output1)
-    faasr_put_file(server_name="My_Minio_Bucket",local_file="df2.csv", remote_folder=folder, remote_file=output2)
+    #faasr_put_file(server_name="My_Minio_Bucket",local_file="df1.csv", remote_folder=folder, remote_file=output1)
+    #faasr_put_file(server_name="My_Minio_Bucket",local_file="df2.csv", remote_folder=folder, remote_file=output2)
 
     # --- Log message ---
     msg = f"Function create_sample_data finished; outputs written to folder {folder} in default S3 bucket"
